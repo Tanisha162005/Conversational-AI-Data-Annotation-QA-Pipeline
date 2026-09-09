@@ -1,0 +1,501 @@
+conversation_id,customer_message,intent
+CONV-01169,Please help me arrange a return. Can you check?,return_request
+CONV-01836,"Hi, How can I prevent the plan from renewing? I noticed this while reviewing my recent activity. Thanks.",subscription_cancel
+CONV-03523,Could you help me? Please help me arrange a return. I placed the order earlier today. I'd appreciate your help.,return_request
+CONV-04942,I’m contacting support because I think someone may have accessed my account. Please let me know.,account_security
+CONV-00603,Could you tell me the current status of my refund? This is my first time dealing with this issue. Can you check?,refund_status
+CONV-01647,"My delivery arrived, but the item inside is damaged. I haven't changed anything on my account. Thank you.",missing_item
+CONV-02917,I wanted to check whether I want to track the package that was just dispatched. This is my first time dealing with this issue. Can you check?,delivery_tracking
+CONV-02328,Just checking — There is visible damage on the item I received. I placed the order earlier today. I’d like to resolve this today.,damaged_item
+CONV-03225,I’m contacting support because I'd like to withdraw this purchase if it hasn't shipped. Please let me know.,order_cancellation
+CONV-02165,Could you tell me the current status of my refund? I haven't changed anything on my account. Can you check?,refund_status
+CONV-02357,Just checking — I don't want the subscription to continue after this billing period. I placed the order earlier today. I’d like to resolve this today.,subscription_cancel
+CONV-01785,Could you help me? I was sent the wrong model. I’m trying to sort this out before the end of the day. Any guidance would be helpful.,wrong_item
+CONV-03775,Just checking — What exactly is included with this item? I placed the order earlier today. Thanks.,product_information
+CONV-02014,Just checking — Where is ORD-104830 right now? I’m trying to sort this out before the end of the day. I'd appreciate your help.,delivery_tracking
+CONV-01797,"Hi, Roughly how long will delivery take? I placed the order earlier today. Thanks.",delivery_estimate
+CONV-03367,"Hello, What steps do I need to follow to return this product? I haven't changed anything on my account. Can you check?",return_request
+CONV-00291,I need some help. The delivery date for ORD-100491 has passed and I'm still waiting.,delivery_delay
+CONV-02970,I wanted to check whether The promotional code says it is invalid. This is my first time dealing with this issue. Please let me know.,promo_code
+CONV-01950,"Hello, My package contains a different product. This is my first time dealing with this issue. Can you check?",wrong_item
+CONV-03085,Please update the destination before the order ships. Can you check?,address_change
+CONV-01677,"I wanted to check whether The item was returned, but I haven't received the refund. I haven't changed anything on my account.",refund_status
+CONV-03352,Please advise: I received a security alert for an unfamiliar sign-in. I placed the order earlier today. I’d like to resolve this today.,account_security
+CONV-04194,"Hi, Can you see what stage ORD-100077 is at right now? I placed the order earlier today. I'd appreciate your help.",order_status
+CONV-01168,I need some help. It looks like I was billed twice for ORD-101626.,duplicate_charge
+CONV-00470,Could you help me? Could you explain the available options for this product? I placed the order earlier today. I’d like to resolve this today.,product_information
+CONV-03233,I need some help. The login page won't let me access my account. Can you check?,account_access
+CONV-01707,I’m contacting support because Checkout keeps rejecting my payment. This is my first time dealing with this issue. Thank you.,payment_failure
+CONV-02881,I need some help. The item I received isn't the one I ordered. This is my first time dealing with this issue. Please let me know.,wrong_item
+CONV-04059,I need some help. Can you help me cancel my recent order? This is my first time dealing with this issue. Thank you.,order_cancellation
+CONV-03940,"Hi, I opened the package and found the product broken. I placed the order earlier today. I’d like to resolve this today.",damaged_item
+CONV-02324,"Hello, Can you cancel ORD-101885 for me? This is my first time dealing with this issue.",order_cancellation
+CONV-01058,Quick question: I need to create a new password because I can't remember mine. I placed the order earlier today. I'd appreciate your help.,password_reset
+CONV-00745,Could you help me? Has the courier scanned ORD-104892 yet? I noticed this while reviewing my recent activity. Any guidance would be helpful.,delivery_tracking
+CONV-00208,I wanted to check whether I noticed a login I don't recognize. Thank you.,account_security
+CONV-04687,Why is the coupon being rejected at checkout? This is my first time dealing with this issue. Thank you.,promo_code
+CONV-00808,"Hello, Does this product come with the accessories shown? I haven't changed anything on my account. Please let me know.",product_information
+CONV-03992,I’m contacting support because How do I change the address attached to my order? This is my first time dealing with this issue.,address_change
+CONV-02712,Just checking — I placed ORD-100243 recently. What is happening with it? I noticed this while reviewing my recent activity. Any guidance would be helpful.,order_status
+CONV-02832,Please advise: Can you show me the latest tracking update for my shipment? I placed the order earlier today. Any guidance would be helpful.,delivery_tracking
+CONV-02693,Just checking — I can't recall my password and need to change it. I’m trying to sort this out before the end of the day. Any guidance would be helpful.,password_reset
+CONV-02236,I wanted to check whether I want to return ORD-100965. How do I start? This is my first time dealing with this issue. Can you check?,return_request
+CONV-02840,I wanted to check whether I think I was charged more than once for a single checkout. Please let me know.,duplicate_charge
+CONV-03061,Could you help me? I want to cancel my subscription. I placed the order earlier today. Any guidance would be helpful.,subscription_cancel
+CONV-03964,My subscription payment was higher than I expected. This is my first time dealing with this issue.,subscription_billing
+CONV-02244,I’m contacting support because Something different was packed instead of what I purchased. I haven't changed anything on my account.,wrong_item
+CONV-04105,I need some help. There are changes in my profile that I didn't make. I haven't changed anything on my account. Thank you.,account_security
+CONV-00134,My payment is being declined at checkout.,payment_failure
+CONV-02307,"Hello, When should ORD-100640 arrive? Thank you.",delivery_estimate
+CONV-03056,Just checking — Can I change the shipping address for ORD-103565? I noticed this while reviewing my recent activity. Any guidance would be helpful.,address_change
+CONV-00519,"Could you help me? I expected this shipment already, but it hasn't turned up. I placed the order earlier today. Any guidance would be helpful.",delivery_delay
+CONV-00295,I need some help. I can't recall my password and need to change it. I haven't changed anything on my account. Can you check?,password_reset
+CONV-00965,I’m contacting support because How do I change the address attached to my order? This is my first time dealing with this issue. Please let me know.,address_change
+CONV-03158,"Could you help me? My delivery arrived, but the item inside is damaged. I placed the order earlier today. Thanks.",damaged_item
+CONV-04837,I’m contacting support because Roughly how long will delivery take? I haven't changed anything on my account. Can you check?,delivery_estimate
+CONV-03279,Just checking — I placed ORD-100213 recently. What is happening with it? I noticed this while reviewing my recent activity. I'd appreciate your help.,order_status
+CONV-04093,I’m contacting support because Where can I request a password reset? I haven't changed anything on my account. Can you check?,password_reset
+CONV-02853,Could you tell me the current status of my refund? This is my first time dealing with this issue. Can you check?,refund_status
+CONV-00112,I need some help. Has the refund for ORD-101090 been issued yet? This is my first time dealing with this issue. Please let me know.,refund_status
+CONV-03799,"Hi, Where should I enter my promo code? I noticed this while reviewing my recent activity. I’d like to resolve this today.",promo_code
+CONV-04186,Just checking — Why does the payment fail whenever I try to complete the order? I noticed this while reviewing my recent activity. Thanks.,payment_failure
+CONV-00721,I want to cancel my subscription. I haven't changed anything on my account. Please let me know.,subscription_cancel
+CONV-04851,I wanted to check whether I noticed a login I don't recognize. This is my first time dealing with this issue. Please let me know.,account_security
+CONV-02745,Just checking — What exactly is included with this item? I noticed this while reviewing my recent activity. Thanks.,product_information
+CONV-01751,Quick question: Please stop my recurring membership. I’m trying to sort this out before the end of the day. Any guidance would be helpful.,subscription_cancel
+CONV-03611,"Hello, What steps do I need to follow to return this product? Thank you.",return_request
+CONV-03210,I’m contacting support because Where can I request a password reset? Thank you.,password_reset
+CONV-03186,I’m contacting support because Roughly how long will delivery take? I haven't changed anything on my account. Please let me know.,delivery_estimate
+CONV-03403,"Hi, Roughly how long will delivery take? I noticed this while reviewing my recent activity. I’d like to resolve this today.",delivery_estimate
+CONV-03418,I wanted to check whether I noticed a login I don't recognize. Can you check?,account_security
+CONV-04111,I need some help. There are changes in my profile that I didn't make. This is my first time dealing with this issue.,account_security
+CONV-03162,"Hello, My discount code isn't working. This is my first time dealing with this issue. Please let me know.",promo_code
+CONV-03824,"Quick question: I have tried several times, but the transaction won't go through. I placed the order earlier today. Any guidance would be helpful.",payment_failure
+CONV-02211,"Hello, What steps do I need to follow to return this product? I haven't changed anything on my account. Thank you.",return_request
+CONV-04876,Quick question: I need to create a new password because I can't remember mine. I’m trying to sort this out before the end of the day. I’d like to resolve this today.,password_reset
+CONV-01184,"My delivery arrived, but the item inside is damaged. This is my first time dealing with this issue. Can you check?",damaged_item
+CONV-03571,Just checking — What exactly is included with this item? I noticed this while reviewing my recent activity. Any guidance would be helpful.,product_information
+CONV-01670,Just checking — Can I change the shipping address for ORD-103615? I placed the order earlier today. I'd appreciate your help.,address_change
+CONV-04842,I need some help. There are changes in my profile that I didn't make. This is my first time dealing with this issue. Thank you.,account_security
+CONV-01213,Quick question: I need to redirect this package to another address. I placed the order earlier today. I’d like to resolve this today.,address_change
+CONV-02255,"Hi, ORD-100370 was due on Monday, but it still hasn't arrived. I placed the order earlier today. Thanks.",delivery_delay
+CONV-00588,I wanted to check whether The item arrived damaged. What should I do? This is my first time dealing with this issue. Can you check?,damaged_item
+CONV-03069,I wanted to check whether Please stop ORD-101847 before it is dispatched. Thank you.,order_cancellation
+CONV-01876,"Hi, Where should I enter my promo code? I placed the order earlier today. Any guidance would be helpful.",promo_code
+CONV-03814,"Hello, The product has a crack that wasn't shown in the listing. This is my first time dealing with this issue. Thank you.",damaged_item
+CONV-02824,"Hello, I entered the wrong delivery address. Can it be corrected? I haven't changed anything on my account. Please let me know.",address_change
+CONV-02378,My account suddenly won't let me log in. This is my first time dealing with this issue. Thank you.,account_access
+CONV-02392,Just checking — Where is ORD-104890 right now? I’m trying to sort this out before the end of the day. I’d like to resolve this today.,delivery_tracking
+CONV-00811,Just checking — I changed my mind and would like to send the item back. I placed the order earlier today. I’d like to resolve this today.,return_request
+CONV-02479,Just checking — I can't recall my password and need to change it. I’m trying to sort this out before the end of the day. I'd appreciate your help.,password_reset
+CONV-03174,Please advise: My parcel is 1 days late. Can you investigate? I placed the order earlier today. I'd appreciate your help.,delivery_delay
+CONV-01891,"Hello, The product has a crack that wasn't shown in the listing. Thank you.",damaged_item
+CONV-03495,"Hi, Where should I enter my promo code? I noticed this while reviewing my recent activity. I’d like to resolve this today.",promo_code
+CONV-00447,Quick question: The delivered item doesn't match my order. I noticed this while reviewing my recent activity. I'd appreciate your help.,wrong_item
+CONV-04336,What is the estimated delivery date for my package? This is my first time dealing with this issue. Can you check?,delivery_estimate
+CONV-04107,I need some help. The login page won't let me access my account. I haven't changed anything on my account. Can you check?,account_access
+CONV-02349,Could you help me? I no longer want this order. Is cancellation still possible? I’m trying to sort this out before the end of the day. Thanks.,order_cancellation
+CONV-00034,Please advise: Can you show me the latest tracking update for my shipment? I’m trying to sort this out before the end of the day. I’d like to resolve this today.,delivery_tracking
+CONV-02828,I’m contacting support because Why was my subscription charged this month? Thank you.,subscription_billing
+CONV-00124,Please advise: Would you mind checking the latest status of ORD-100199? I’m trying to sort this out before the end of the day. Thanks.,order_status
+CONV-03088,I’m contacting support because Could you explain the return process for this purchase? Can you check?,return_request
+CONV-04955,I’m contacting support because My multi-item order is incomplete. Please let me know.,missing_item
+CONV-03327,"Hi, Something different was packed instead of what I purchased. I’m trying to sort this out before the end of the day. Thanks.",wrong_item
+CONV-00165,Quick question: Do you have an update on ORD-100151? I want to know where it stands. I’m trying to sort this out before the end of the day. Thanks.,order_status
+CONV-04737,I wanted to check whether Can you give me an ETA for this shipment? Can you check?,delivery_estimate
+CONV-01639,Please advise: My parcel is 5 days late. Can you investigate? I noticed this while reviewing my recent activity. I'd appreciate your help.,delivery_delay
+CONV-02938,I need some help. I’m planning around the delivery. When is it expected? Thank you.,delivery_estimate
+CONV-04289,I wanted to check whether Do you have an update on ORD-100066? I want to know where it stands. Thank you.,order_status
+CONV-00848,My subscription payment was higher than I expected. I haven't changed anything on my account. Please let me know.,subscription_billing
+CONV-04278,I no longer want this order. Is cancellation still possible? I haven't changed anything on my account. Can you check?,order_cancellation
+CONV-02216,"Hello, I don't recognize the amount billed for my membership. Please let me know.",subscription_billing
+CONV-01924,Could you help me? My subscription payment was higher than I expected. I placed the order earlier today. I'd appreciate your help.,subscription_billing
+CONV-00102,Quick question: I think I was charged more than once for a single checkout. I’m trying to sort this out before the end of the day. Any guidance would be helpful.,duplicate_charge
+CONV-02596,I wanted to check whether I want to track the package that was just dispatched. Please let me know.,delivery_tracking
+CONV-04400,The same purchase appears twice on my card statement. Thank you.,duplicate_charge
+CONV-03956,Just checking — What exactly is included with this item? I placed the order earlier today. I'd appreciate your help.,product_information
+CONV-04773,Please advise: Does this product come with the accessories shown? I’m trying to sort this out before the end of the day. I'd appreciate your help.,product_information
+CONV-03642,Quick question: Can you give me an ETA for this shipment? I placed the order earlier today. I'd appreciate your help.,delivery_estimate
+CONV-00461,Just checking — Why does the payment fail whenever I try to complete the order? I noticed this while reviewing my recent activity. Any guidance would be helpful.,payment_failure
+CONV-04838,Has the courier scanned ORD-104947 yet? I haven't changed anything on my account. Thank you.,delivery_tracking
+CONV-00114,I wanted to check whether Can you give me an ETA for this shipment?,delivery_estimate
+CONV-00243,"Hello, I don't recognize the amount billed for my membership. I haven't changed anything on my account. Can you check?",subscription_billing
+CONV-04257,One product from my order is missing. This is my first time dealing with this issue.,missing_item
+CONV-00265,My payment is being declined at checkout. This is my first time dealing with this issue. Please let me know.,payment_failure
+CONV-03014,"I wanted to check whether The box arrived, but charger wasn't inside. This is my first time dealing with this issue. Please let me know.",missing_item
+CONV-03922,Please advise: My discount code isn't working. I’m trying to sort this out before the end of the day. I'd appreciate your help.,promo_code
+CONV-00549,"Hello, I entered the wrong delivery address. Can it be corrected? I haven't changed anything on my account.",address_change
+CONV-02806,Just checking — Has the refund for ORD-101005 been issued yet? I’m trying to sort this out before the end of the day. I’d like to resolve this today.,refund_status
+CONV-04881,I wanted to check whether I need to create a new password because I can't remember mine. This is my first time dealing with this issue. Please let me know.,password_reset
+CONV-03408,"I expected this shipment already, but it hasn't turned up. Please let me know.",delivery_delay
+CONV-02209,Please advise: I received a security alert for an unfamiliar sign-in. I placed the order earlier today. I'd appreciate your help.,account_security
+CONV-00733,"Hi, How can I prevent the plan from renewing? I noticed this while reviewing my recent activity. I’d like to resolve this today.",subscription_cancel
+CONV-01233,Please advise: My parcel is 5 days late. Can you investigate? I noticed this while reviewing my recent activity. I’d like to resolve this today.,delivery_delay
+CONV-04494,I’m contacting support because I see two charges for the same purchase. Please let me know.,duplicate_charge
+CONV-00392,Quick question: Can you tell me more about this product's features? I placed the order earlier today. Any guidance would be helpful.,product_information
+CONV-03412,Quick question: The delivered item doesn't match my order. I noticed this while reviewing my recent activity. I'd appreciate your help.,wrong_item
+CONV-00302,I need some help. The delivery date for ORD-100471 has passed and I'm still waiting. I haven't changed anything on my account. Can you check?,delivery_delay
+CONV-00284,Please advise: I'm still waiting for the money from my return. Can you check? I placed the order earlier today. Any guidance would be helpful.,refund_status
+CONV-04618,I’m contacting support because Where can I request a password reset? I haven't changed anything on my account. Thank you.,password_reset
+CONV-02108,Please advise: I don't recognize the amount billed for my membership. I placed the order earlier today. I'd appreciate your help.,subscription_billing
+CONV-03390,Just checking — The login page won't let me access my account. I noticed this while reviewing my recent activity. I'd appreciate your help.,account_access
+CONV-03328,I’m contacting support because I opened the package and found the product broken. I haven't changed anything on my account. Please let me know.,damaged_item
+CONV-01498,I wanted to check whether Please stop ORD-101837 before it is dispatched. This is my first time dealing with this issue.,order_cancellation
+CONV-01414,Please advise: The product has a crack that wasn't shown in the listing. I noticed this while reviewing my recent activity. I’d like to resolve this today.,damaged_item
+CONV-04062,"Quick question: The item was returned, but I haven't received the refund. I’m trying to sort this out before the end of the day. Thanks.",refund_status
+CONV-02403,"Could you help me? My delivery arrived, but the item inside is damaged. I noticed this while reviewing my recent activity. Any guidance would be helpful.",damaged_item
+CONV-02232,Please advise: Why are there duplicate transactions for one order? I’m trying to sort this out before the end of the day. Thanks.,duplicate_charge
+CONV-01542,"I expected this shipment already, but it hasn't turned up. Can you check?",delivery_delay
+CONV-03112,"Hello, The product has a crack that wasn't shown in the listing.",damaged_item
+CONV-01447,Could you help me? One product from my order is missing. I noticed this while reviewing my recent activity. I'd appreciate your help.,missing_item
+CONV-02982,I’m contacting support because I think someone may have accessed my account. This is my first time dealing with this issue. Thank you.,account_security
+CONV-02958,"Quick question: I have tried several times, but the transaction won't go through. I’m trying to sort this out before the end of the day. I’d like to resolve this today.",payment_failure
+CONV-01485,"I wanted to check whether The item was returned, but I haven't received the refund. Thank you.",return_request
+CONV-04312,I’m contacting support because Roughly how long will delivery take? I haven't changed anything on my account.,delivery_estimate
+CONV-04560,Please advise: My parcel is 1 days late. Can you investigate? I placed the order earlier today. I’d like to resolve this today.,delivery_delay
+CONV-02329,I wanted to check whether The promotional code says it is invalid. Thank you.,promo_code
+CONV-01787,"I wanted to check whether I have tried several times, but the transaction won't go through. This is my first time dealing with this issue. Please let me know.",payment_failure
+CONV-01431,I need some help. I changed my mind and would like to send the item back. I haven't changed anything on my account.,return_request
+CONV-02172,"Hello, Can you cancel ORD-101915 for me? This is my first time dealing with this issue. Please let me know.",order_cancellation
+CONV-02946,I need some help. There is visible damage on the item I received. I haven't changed anything on my account. Can you check?,damaged_item
+CONV-03125,Quick question: The promised delivery window is over for ORD-100374. I noticed this while reviewing my recent activity. Any guidance would be helpful.,delivery_delay
+CONV-01917,Could you help me? Please help me arrange a return. I noticed this while reviewing my recent activity. Thanks.,return_request
+CONV-04719,Just checking — Where is ORD-104820 right now? I noticed this while reviewing my recent activity. Any guidance would be helpful.,delivery_tracking
+CONV-01511,"Hello, Can you cancel ORD-101765 for me? This is my first time dealing with this issue.",order_cancellation
+CONV-00873,Just checking — I placed ORD-100203 recently. What is happening with it? I placed the order earlier today. Any guidance would be helpful.,order_status
+CONV-03029,I’m contacting support because Checkout keeps rejecting my payment. This is my first time dealing with this issue. Please let me know.,payment_failure
+CONV-04022,"Hi, My multi-item order is incomplete. I noticed this while reviewing my recent activity. Thanks.",missing_item
+CONV-02612,Just checking — I’m planning around the delivery. When is it expected? I’m trying to sort this out before the end of the day. Thanks.,delivery_estimate
+CONV-02285,Just checking — It looks like I was billed twice for ORD-101641. I noticed this while reviewing my recent activity. Thanks.,duplicate_charge
+CONV-01067,"Hello, The product has a crack that wasn't shown in the listing. I haven't changed anything on my account.",damaged_item
+CONV-00567,I wanted to check whether Please stop my recurring membership. I haven't changed anything on my account. Please let me know.,subscription_cancel
+CONV-02752,"Hello, My parcel is 2 days late. Can you investigate?",delivery_delay
+CONV-02968,Please advise: Could you help me end my recurring plan? I’m trying to sort this out before the end of the day. Thanks.,subscription_cancel
+CONV-02430,I need some help. Part of ORD-102528 was not included in the delivery. Thank you.,missing_item
+CONV-02063,Why is the coupon being rejected at checkout? I haven't changed anything on my account. Thank you.,promo_code
+CONV-01794,I’m contacting support because Can you see what stage ORD-100222 is at right now? Please let me know.,order_status
+CONV-04806,Could you help me? I no longer want this order. Is cancellation still possible? I’m trying to sort this out before the end of the day. I'd appreciate your help.,order_cancellation
+CONV-01312,I’m contacting support because Can you see what stage ORD-100032 is at right now? This is my first time dealing with this issue.,order_status
+CONV-00107,I’m contacting support because Could you explain the return process for this purchase? I haven't changed anything on my account. Thank you.,return_request
+CONV-04143,"Hello, I received the package, but one of the products is absent. This is my first time dealing with this issue. Can you check?",missing_item
+CONV-01488,Could you help me? Can you send me through the password recovery process? I noticed this while reviewing my recent activity. Any guidance would be helpful.,password_reset
+CONV-02961,"Hi, Could you explain the return process for this purchase? I’m trying to sort this out before the end of the day. Any guidance would be helpful.",return_request
+CONV-00611,Just checking — I placed ORD-100233 recently. What is happening with it? I placed the order earlier today. I’d like to resolve this today.,order_status
+CONV-01996,I need some help. The delivery date for ORD-100331 has passed and I'm still waiting. This is my first time dealing with this issue.,delivery_delay
+CONV-02925,I’m contacting support because How can I prevent the plan from renewing? I haven't changed anything on my account. Please let me know.,subscription_cancel
+CONV-00318,I’m contacting support because My multi-item order is incomplete. Can you check?,missing_item
+CONV-04537,My payment is being declined at checkout. This is my first time dealing with this issue. Please let me know.,payment_failure
+CONV-03697,Quick question: I want to track the package that was just dispatched. I’m trying to sort this out before the end of the day. Any guidance would be helpful.,delivery_tracking
+CONV-01343,Quick question: I need to create a new password because I can't remember mine. I noticed this while reviewing my recent activity. Thanks.,password_reset
+CONV-00126,Could you help me? Could you explain the available options for this product? I noticed this while reviewing my recent activity. Thanks.,product_information
+CONV-04579,"Hello, I received a security alert for an unfamiliar sign-in. This is my first time dealing with this issue. Please let me know.",account_security
+CONV-03191,I need some help. The item I received isn't the one I ordered. I haven't changed anything on my account. Can you check?,wrong_item
+CONV-03071,"Hi, I see two charges for the same purchase. I placed the order earlier today. I'd appreciate your help.",duplicate_charge
+CONV-01426,I need some help. Has the refund for ORD-101180 been issued yet? This is my first time dealing with this issue.,refund_status
+CONV-02493,"Hello, I'm locked out of my account and need access. I haven't changed anything on my account. Can you check?",account_access
+CONV-03537,Please update the destination before the order ships. I haven't changed anything on my account. Please let me know.,address_change
+CONV-01667,Just checking — There is visible damage on the item I received. I noticed this while reviewing my recent activity. I'd appreciate your help.,damaged_item
+CONV-03044,"Hi, When should the refund appear in my account? I noticed this while reviewing my recent activity. I’d like to resolve this today.",refund_status
+CONV-04889,I wanted to check whether Do you have an update on ORD-100206? I want to know where it stands. This is my first time dealing with this issue. Please let me know.,order_status
+CONV-00049,Could you help me? Can you send me through the password recovery process? I placed the order earlier today. I'd appreciate your help.,password_reset
+CONV-01078,"Hello, What steps do I need to follow to return this product? Thank you.",return_request
+CONV-03189,I need some help. Can you help me cancel my recent order? I haven't changed anything on my account.,order_cancellation
+CONV-01944,"Please advise: I received the package, but one of the products is absent. I placed the order earlier today. Thanks.",missing_item
+CONV-04376,Quick question: I keep getting rejected when I try to sign in. I placed the order earlier today. I'd appreciate your help.,account_access
+CONV-02127,"Hello, Could you help me end my recurring plan? I haven't changed anything on my account. Please let me know.",subscription_cancel
+CONV-01027,Quick question: I keep getting rejected when I try to sign in. I’m trying to sort this out before the end of the day. I’d like to resolve this today.,account_access
+CONV-00691,Just checking — The discount isn't being applied even though I entered the code. I’m trying to sort this out before the end of the day. Any guidance would be helpful.,promo_code
+CONV-03792,I wanted to check whether I need to redirect this package to another address.,address_change
+CONV-00998,I need some help. I can't recall my password and need to change it. I haven't changed anything on my account. Thank you.,password_reset
+CONV-03499,Just checking — It looks like I was billed twice for ORD-101591. I’m trying to sort this out before the end of the day. I'd appreciate your help.,duplicate_charge
+CONV-03150,"Hi, Could you tell me the current location or transit stage of my parcel? I noticed this while reviewing my recent activity. I’d like to resolve this today.",delivery_tracking
+CONV-02996,I wanted to check whether Please stop ORD-101987 before it is dispatched. This is my first time dealing with this issue. Please let me know.,order_cancellation
+CONV-03608,Please advise: Can you show me the latest tracking update for my shipment? I’m trying to sort this out before the end of the day. Any guidance would be helpful.,delivery_tracking
+CONV-01514,Just checking — The discount isn't being applied even though I entered the code. I placed the order earlier today. I’d like to resolve this today.,promo_code
+CONV-00052,"Hello, Does this product come with the accessories shown? This is my first time dealing with this issue. Please let me know.",product_information
+CONV-03995,Please advise: I'm locked out of my account and need access. I’m trying to sort this out before the end of the day. Any guidance would be helpful.,account_access
+CONV-04529,Quick question: Can you give me an ETA for this shipment? I placed the order earlier today. Thanks.,delivery_estimate
+CONV-03815,"Hello, I can't finish the purchase because the payment isn't accepted. I haven't changed anything on my account.",duplicate_charge
+CONV-03270,Could you help me? I want to cancel my subscription. I noticed this while reviewing my recent activity. Any guidance would be helpful.,subscription_cancel
+CONV-00277,"I wanted to check whether I have tried several times, but the transaction won't go through. This is my first time dealing with this issue. Can you check?",payment_failure
+CONV-03634,My account suddenly won't let me log in. This is my first time dealing with this issue. Can you check?,account_access
+CONV-01183,"Hello, Could you help me end my recurring plan? This is my first time dealing with this issue. Can you check?",subscription_cancel
+CONV-04067,Please advise: I don't recognize the amount billed for my membership. I’m trying to sort this out before the end of the day. Thanks.,subscription_billing
+CONV-02625,I need some help. The delivery date for ORD-100421 has passed and I'm still waiting. This is my first time dealing with this issue. Thank you.,delivery_delay
+CONV-02222,"Quick question: The box arrived, but headphones wasn't inside. I placed the order earlier today. I’d like to resolve this today.",missing_item
+CONV-02898,"Hi, When should the refund appear in my account? I’m trying to sort this out before the end of the day. Thanks.",refund_status
+CONV-00396,My account suddenly won't let me log in. I haven't changed anything on my account.,account_access
+CONV-01705,I’m contacting support because My multi-item order is incomplete. This is my first time dealing with this issue. Please let me know.,missing_item
+CONV-03481,Quick question: I have a question about the charge on my recurring plan. I placed the order earlier today. I’d like to resolve this today.,subscription_billing
+CONV-00945,Quick question: I think I was charged more than once for a single checkout. I noticed this while reviewing my recent activity. Any guidance would be helpful.,duplicate_charge
+CONV-04858,Just checking — I’m planning around the delivery. When is it expected? I noticed this while reviewing my recent activity. Thanks.,delivery_estimate
+CONV-01444,Just checking — What exactly is included with this item? I noticed this while reviewing my recent activity. Thanks.,product_information
+CONV-03335,"Hi, Where should I enter my promo code? I placed the order earlier today. I’d like to resolve this today.",promo_code
+CONV-04558,Please advise: I received a security alert for an unfamiliar sign-in. I’m trying to sort this out before the end of the day. I'd appreciate your help.,account_security
+CONV-04519,"I wanted to check whether The box arrived, but adapter wasn't inside. I haven't changed anything on my account. Thank you.",missing_item
+CONV-00135,Just checking — I don't want the subscription to continue after this billing period. I placed the order earlier today. Any guidance would be helpful.,subscription_cancel
+CONV-00076,"Hello, The product has a crack that wasn't shown in the listing. I haven't changed anything on my account. Thank you.",damaged_item
+CONV-00324,I need some help. I can't recall my password and need to change it. This is my first time dealing with this issue.,password_reset
+CONV-01686,I need some help. I placed ORD-100058 recently. What is happening with it? I haven't changed anything on my account. Thank you.,order_status
+CONV-01134,I’m contacting support because Roughly how long will delivery take? This is my first time dealing with this issue. Please let me know.,delivery_estimate
+CONV-02509,Quick question: I noticed a login I don't recognize. I noticed this while reviewing my recent activity. I’d like to resolve this today.,account_security
+CONV-01803,"Could you help me? I expected this shipment already, but it hasn't turned up. I placed the order earlier today. Thanks.",delivery_delay
+CONV-04522,"Hello, I entered the wrong delivery address. Can it be corrected? This is my first time dealing with this issue. Thank you.",address_change
+CONV-02348,I wanted to check whether I want to track the package that was just dispatched. This is my first time dealing with this issue.,delivery_tracking
+CONV-01755,I wanted to check whether Do you have an update on ORD-100006? I want to know where it stands. Please let me know.,order_status
+CONV-01806,"Hello, My parcel is 2 days late. Can you investigate? Please let me know.",delivery_delay
+CONV-01111,"Hi, Something different was packed instead of what I purchased. I placed the order earlier today. I'd appreciate your help.",wrong_item
+CONV-02574,"Hello, I can't finish the purchase because the payment isn't accepted. Can you check?",payment_failure
+CONV-03857,I’m contacting support because Where can I request a password reset? I haven't changed anything on my account. Can you check?,password_reset
+CONV-00115,I wanted to check whether The delivered item doesn't match my order. I haven't changed anything on my account.,wrong_item
+CONV-04749,"I wanted to check whether The item was returned, but I haven't received the refund. I haven't changed anything on my account. Please let me know.",refund_status
+CONV-04811,"Quick question: The box arrived, but headphones wasn't inside. I’m trying to sort this out before the end of the day. I’d like to resolve this today.",missing_item
+CONV-03503,Please advise: My package contains a different product. I placed the order earlier today. I’d like to resolve this today.,wrong_item
+CONV-01910,I’m contacting support because I need the specifications before I decide whether to buy it. Can you check?,product_information
+CONV-04917,"Hello, Would you mind checking the latest status of ORD-100064? I haven't changed anything on my account.",order_status
+CONV-03704,Just checking — Where is ORD-104910 right now? I noticed this while reviewing my recent activity. I'd appreciate your help.,delivery_tracking
+CONV-00504,Please advise: My discount code isn't working. I noticed this while reviewing my recent activity. I'd appreciate your help.,promo_code
+CONV-03145,Could you help me? Something about my account activity looks suspicious. I placed the order earlier today. Thanks.,account_security
+CONV-04096,Please update the destination before the order ships. Can you check?,address_change
+CONV-00757,"Could you help me? My delivery arrived, but the item inside is damaged. I noticed this while reviewing my recent activity. Thanks.",damaged_item
+CONV-04436,Quick question: Can you give me an ETA for this shipment? I noticed this while reviewing my recent activity. I'd appreciate your help.,delivery_estimate
+CONV-02599,Just checking — There are changes in my profile that I didn't make. I placed the order earlier today. Thanks.,account_security
+CONV-00137,"Hello, My discount code isn't working. I haven't changed anything on my account. Thank you.",promo_code
+CONV-02630,I need some help. Why does the payment fail whenever I try to complete the order? I haven't changed anything on my account. Can you check?,payment_failure
+CONV-01884,Quick question: The promotional code says it is invalid. I placed the order earlier today. Any guidance would be helpful.,promo_code
+CONV-04743,Could you help me? Please help me arrange a return. I noticed this while reviewing my recent activity. I’d like to resolve this today.,return_request
+CONV-00314,I wanted to check whether I want to track the package that was just dispatched. I haven't changed anything on my account. Thank you.,delivery_tracking
+CONV-02619,"I wanted to check whether The box arrived, but case wasn't inside. This is my first time dealing with this issue.",missing_item
+CONV-00870,I need some help. Where is ORD-104785 right now? I haven't changed anything on my account.,delivery_tracking
+CONV-03844,"Hi, Can you see what stage ORD-100167 is at right now? I placed the order earlier today. Thanks.",order_status
+CONV-02467,I need some help. The item I received isn't the one I ordered. This is my first time dealing with this issue. Thank you.,wrong_item
+CONV-02622,I need some help. I changed my mind and would like to send the item back. This is my first time dealing with this issue. Please let me know.,return_request
+CONV-01145,"Hi, I can't sign in to my account. I placed the order earlier today. I'd appreciate your help.",account_access
+CONV-03303,My subscription payment was higher than I expected.,subscription_billing
+CONV-00647,I’m contacting support because Where can I request a password reset? Please let me know.,password_reset
+CONV-04781,"Hello, I forgot my password. How can I reset it? This is my first time dealing with this issue. Please let me know.",password_reset
+CONV-03836,The same purchase appears twice on my card statement. I haven't changed anything on my account. Thank you.,duplicate_charge
+CONV-00569,"Hello, I received the package, but one of the products is absent. This is my first time dealing with this issue.",missing_item
+CONV-04818,Please advise: Can you cancel ORD-101930 for me? I placed the order earlier today. I'd appreciate your help.,order_cancellation
+CONV-00001,Just checking — It looks like I was billed twice for ORD-101501. I’m trying to sort this out before the end of the day. Any guidance would be helpful.,duplicate_charge
+CONV-04758,I need some help. I can't recall my password and need to change it. Please let me know.,password_reset
+CONV-02779,Please advise: Does this product come with the accessories shown? I’m trying to sort this out before the end of the day. Thanks.,product_information
+CONV-04193,"Quick question: The box arrived, but cable wasn't inside. I noticed this while reviewing my recent activity. Thanks.",missing_item
+CONV-02525,"Hi, How do I change the address attached to my order? I placed the order earlier today. Any guidance would be helpful.",address_change
+CONV-02131,"Hello, I forgot my password. How can I reset it? This is my first time dealing with this issue. Can you check?",password_reset
+CONV-03253,I need some help. I can't recall my password and need to change it. Thank you.,password_reset
+CONV-04225,Quick question: I need to redirect this package to another address. I’m trying to sort this out before the end of the day. Thanks.,address_change
+CONV-04475,I’m contacting support because Could you tell me the current location or transit stage of my parcel? This is my first time dealing with this issue. Please let me know.,delivery_tracking
+CONV-04900,Could you help me? Please help me arrange a return. I noticed this while reviewing my recent activity. Any guidance would be helpful.,return_request
+CONV-01914,"I wanted to check whether The box arrived, but case wasn't inside.",missing_item
+CONV-00434,I’m contacting support because I can't sign in to my account. Can you check?,account_access
+CONV-04176,I wanted to check whether Please stop ORD-101997 before it is dispatched.,order_cancellation
+CONV-01788,Just checking — The delivery date for ORD-100276 has passed and I'm still waiting. I’m trying to sort this out before the end of the day. I’d like to resolve this today.,delivery_delay
+CONV-01533,My payment is being declined at checkout. Can you check?,payment_failure
+CONV-02135,Please advise: I received a security alert for an unfamiliar sign-in. I’m trying to sort this out before the end of the day. Thanks.,account_security
+CONV-03182,I need some help. The login page won't let me access my account. Thank you.,account_access
+CONV-03685,I’m contacting support because When should the refund appear in my account? I haven't changed anything on my account. Please let me know.,refund_status
+CONV-02386,Quick question: I want to return ORD-100940. How do I start? I’m trying to sort this out before the end of the day. Any guidance would be helpful.,return_request
+CONV-03536,I’m contacting support because I can't sign in to my account.,account_access
+CONV-00040,"Could you help me? My delivery arrived, but the item inside is damaged. I’m trying to sort this out before the end of the day. Any guidance would be helpful.",damaged_item
+CONV-02273,"Quick question: The box arrived, but notebook wasn't inside. I noticed this while reviewing my recent activity. I'd appreciate your help.",missing_item
+CONV-01328,I’m checking on ORD-100170. Could you tell me its current status? This is my first time dealing with this issue. Thank you.,order_status
+CONV-01507,"My delivery arrived, but the item inside is damaged. This is my first time dealing with this issue. Thank you.",damaged_item
+CONV-02607,I wanted to check whether The delivered item doesn't match my order. I haven't changed anything on my account. Thank you.,wrong_item
+CONV-02523,I need some help. Can you explain the latest recurring charge? I haven't changed anything on my account. Can you check?,subscription_billing
+CONV-00555,I wanted to check whether The delivered item doesn't match my order. This is my first time dealing with this issue. Can you check?,wrong_item
+CONV-04523,Could you help me? My account suddenly won't let me log in. I noticed this while reviewing my recent activity. I’d like to resolve this today.,account_access
+CONV-04339,"Hi, I think someone may have accessed my account. I noticed this while reviewing my recent activity. Any guidance would be helpful.",account_security
+CONV-04794,Quick question: Please stop ORD-101802 before it is dispatched. I noticed this while reviewing my recent activity. I'd appreciate your help.,order_cancellation
+CONV-01762,I wanted to check whether Can you tell me more about this product's features? This is my first time dealing with this issue. Can you check?,product_information
+CONV-01905,Please advise: Can you cancel ORD-101800 for me? I’m trying to sort this out before the end of the day. Any guidance would be helpful.,order_cancellation
+CONV-03211,I need some help. I’m planning around the delivery. When is it expected? Can you check?,delivery_estimate
+CONV-04635,I wanted to check whether I keep getting rejected when I try to sign in. I haven't changed anything on my account.,account_access
+CONV-03084,I need some help. It looks like I was billed twice for ORD-101706. This is my first time dealing with this issue.,duplicate_charge
+CONV-00347,Quick question: I want to track the package that was just dispatched. I’m trying to sort this out before the end of the day. I'd appreciate your help.,delivery_tracking
+CONV-04212,I wanted to check whether I think I was charged more than once for a single checkout. This is my first time dealing with this issue. Thank you.,duplicate_charge
+CONV-02411,Could you help me? Why is the coupon being rejected at checkout? I noticed this while reviewing my recent activity. I'd appreciate your help.,promo_code
+CONV-00499,"Hello, Why are there duplicate transactions for one order? I haven't changed anything on my account. Thank you.",duplicate_charge
+CONV-02406,I’m contacting support because I think someone may have accessed my account. This is my first time dealing with this issue. Thank you.,account_security
+CONV-02805,"Hi, Where should I enter my promo code? I noticed this while reviewing my recent activity. Any guidance would be helpful.",promo_code
+CONV-01057,Could you help me? Has the courier scanned ORD-104822 yet? I placed the order earlier today. I'd appreciate your help.,delivery_tracking
+CONV-01212,Just checking — Why does the payment fail whenever I try to complete the order? I noticed this while reviewing my recent activity. Thanks.,payment_failure
+CONV-00604,Just checking — What exactly is included with this item? I noticed this while reviewing my recent activity. I'd appreciate your help.,product_information
+CONV-03411,I wanted to check whether I want to return ORD-100885. How do I start? Can you check?,return_request
+CONV-02048,I need some help. There is visible damage on the item I received. I haven't changed anything on my account. Thank you.,damaged_item
+CONV-01680,I wanted to check whether I want to track the package that was just dispatched. I haven't changed anything on my account. Please let me know.,delivery_tracking
+CONV-04114,"Hi, Roughly how long will delivery take? I placed the order earlier today. I'd appreciate your help.",delivery_estimate
+CONV-00660,I’m contacting support because When should the refund appear in my account? This is my first time dealing with this issue.,refund_status
+CONV-02972,I need some help. Has the refund for ORD-101000 been issued yet? This is my first time dealing with this issue. Can you check?,refund_status
+CONV-00366,"Hello, I forgot my password. How can I reset it? I haven't changed anything on my account. Can you check?",password_reset
+CONV-03264,I no longer want this order. Is cancellation still possible? This is my first time dealing with this issue. Thank you.,order_cancellation
+CONV-03134,I’m contacting support because How can I prevent the plan from renewing? I haven't changed anything on my account. Can you check?,subscription_cancel
+CONV-02885,I’m contacting support because How can I prevent the plan from renewing? This is my first time dealing with this issue. Thank you.,subscription_cancel
+CONV-01421,I need some help. Can I change the shipping address for ORD-103660? This is my first time dealing with this issue. Thank you.,address_change
+CONV-02257,I’m contacting support because Where should I enter my promo code? This is my first time dealing with this issue.,promo_code
+CONV-01244,I wanted to check whether I think I was charged more than once for a single checkout. Can you check?,duplicate_charge
+CONV-00175,Please advise: My parcel is 1 days late. Can you investigate? I placed the order earlier today. I'd appreciate your help.,delivery_delay
+CONV-02186,I want to cancel my subscription. This is my first time dealing with this issue. Can you check?,subscription_cancel
+CONV-01049,"Hello, I received the package, but one of the products is absent.",missing_item
+CONV-03096,Could you help me? Can you send me through the password recovery process? I noticed this while reviewing my recent activity. I'd appreciate your help.,password_reset
+CONV-03501,Why is the coupon being rejected at checkout? This is my first time dealing with this issue. Can you check?,promo_code
+CONV-03190,Just checking — The delivery date for ORD-100306 has passed and I'm still waiting. I’m trying to sort this out before the end of the day. Thanks.,delivery_delay
+CONV-02286,"My delivery arrived, but the item inside is damaged. Please let me know.",damaged_item
+CONV-03122,I wanted to check whether I need to create a new password because I can't remember mine. I haven't changed anything on my account.,password_reset
+CONV-01904,I need some help. What exactly is included with this item? I haven't changed anything on my account. Thank you.,product_information
+CONV-01157,Could you help me? My payment is being declined at checkout. I noticed this while reviewing my recent activity. Thanks.,payment_failure
+CONV-00178,"Hi, I think someone may have accessed my account. I placed the order earlier today. I’d like to resolve this today.",account_security
+CONV-01616,Quick question: The item arrived damaged. What should I do? I’m trying to sort this out before the end of the day. Thanks.,damaged_item
+CONV-03322,Quick question: I think I was charged more than once for a single checkout. I placed the order earlier today. I'd appreciate your help.,duplicate_charge
+CONV-01612,I’m contacting support because Something different was packed instead of what I purchased. This is my first time dealing with this issue. Can you check?,wrong_item
+CONV-04742,Quick question: Can you tell me more about this product's features? I placed the order earlier today. Thanks.,product_information
+CONV-01956,I’m contacting support because I think someone may have accessed my account. Can you check?,account_security
+CONV-04040,I need some help. The delivery date for ORD-100341 has passed and I'm still waiting. Thank you.,delivery_delay
+CONV-00714,I need some help. The discount isn't being applied even though I entered the code. I haven't changed anything on my account.,promo_code
+CONV-01786,I need some help. Has the refund for ORD-101130 been issued yet? Please let me know.,refund_status
+CONV-04839,I wanted to check whether I keep getting rejected when I try to sign in. I haven't changed anything on my account. Please let me know.,account_access
+CONV-02710,"Hello, I received a security alert for an unfamiliar sign-in. I haven't changed anything on my account. Thank you.",account_security
+CONV-04677,I’m contacting support because How can I prevent the plan from renewing? I haven't changed anything on my account. Thank you.,subscription_cancel
+CONV-01331,"Hi, Something different was packed instead of what I purchased. I noticed this while reviewing my recent activity. I'd appreciate your help.",wrong_item
+CONV-03650,I need some help. What exactly is included with this item? This is my first time dealing with this issue. Please let me know.,product_information
+CONV-01003,Quick question: I want to return ORD-100800. How do I start? I placed the order earlier today. Thanks.,return_request
+CONV-01384,"Hi, I see two charges for the same purchase. I noticed this while reviewing my recent activity. Thanks.",duplicate_charge
+CONV-01932,I’m contacting support because Roughly how long will delivery take? Please let me know.,delivery_estimate
+CONV-04847,I need some help. I don't want the subscription to continue after this billing period. I haven't changed anything on my account. Please let me know.,subscription_cancel
+CONV-02956,Quick question: The promised delivery window is over for ORD-100304. I placed the order earlier today. I'd appreciate your help.,delivery_delay
+CONV-00556,"I wanted to check whether I have tried several times, but the transaction won't go through. I haven't changed anything on my account.",payment_failure
+CONV-04079,"I’m contacting support because ORD-100385 was due on Thursday, but it still hasn't arrived. This is my first time dealing with this issue. Please let me know.",delivery_delay
+CONV-04974,Please advise: Would you mind checking the latest status of ORD-100189? I noticed this while reviewing my recent activity. I'd appreciate your help.,order_status
+CONV-01715,Please advise: The product has a crack that wasn't shown in the listing. I placed the order earlier today. Thanks.,damaged_item
+CONV-01555,Please advise: My discount code isn't working. I placed the order earlier today. I'd appreciate your help.,promo_code
+CONV-01911,Quick question: I need to redirect this package to another address. I’m trying to sort this out before the end of the day. I'd appreciate your help.,address_change
+CONV-02128,I need some help. What exactly is included with this item?,product_information
+CONV-01614,Quick question: The item arrived damaged. What should I do? I noticed this while reviewing my recent activity. I'd appreciate your help.,damaged_item
+CONV-01231,"I’m contacting support because ORD-100445 was due on Thursday, but it still hasn't arrived. This is my first time dealing with this issue. Thank you.",delivery_delay
+CONV-02246,I’m contacting support because Something different was packed instead of what I purchased. This is my first time dealing with this issue.,wrong_item
+CONV-01311,I need some help. I don't want the subscription to continue after this billing period. This is my first time dealing with this issue. Please let me know.,subscription_cancel
+CONV-03868,"Hi, Could you tell me the current location or transit stage of my parcel? I noticed this while reviewing my recent activity. Any guidance would be helpful.",delivery_tracking
+CONV-04239,My subscription payment was higher than I expected.,subscription_billing
+CONV-04121,One product from my order is missing. I haven't changed anything on my account. Can you check?,missing_item
+CONV-04701,Just checking — I’m planning around the delivery. When is it expected? I’m trying to sort this out before the end of the day. Any guidance would be helpful.,delivery_estimate
+CONV-01392,Please help me arrange a return. This is my first time dealing with this issue.,return_request
+CONV-01765,Please advise: Does this product come with the accessories shown? I’m trying to sort this out before the end of the day. Any guidance would be helpful.,product_information
+CONV-03709,Just checking — It looks like I was billed twice for ORD-101521. I noticed this while reviewing my recent activity. Thanks.,duplicate_charge
+CONV-01013,Just checking — I don't want the subscription to continue after this billing period. I noticed this while reviewing my recent activity. Thanks.,subscription_cancel
+CONV-01250,I’m contacting support because Why was my subscription charged this month? This is my first time dealing with this issue. Can you check?,subscription_billing
+CONV-03846,My subscription payment was higher than I expected. I haven't changed anything on my account.,subscription_billing
+CONV-01504,"Hello, I'm still waiting for the money from my return. Can you check? I haven't changed anything on my account. Please let me know.",refund_status
+CONV-01273,I’m contacting support because I can't sign in to my account. This is my first time dealing with this issue. Thank you.,account_access
+CONV-04386,Quick question: The item arrived damaged. What should I do? I’m trying to sort this out before the end of the day. I'd appreciate your help.,damaged_item
+CONV-02143,Please advise: I'm locked out of my account and need access. I’m trying to sort this out before the end of the day. I'd appreciate your help.,account_access
+CONV-00803,I’m contacting support because Something different was packed instead of what I purchased. This is my first time dealing with this issue. Thank you.,wrong_item
+CONV-00227,"Please advise: I received the package, but one of the products is absent. I placed the order earlier today. Any guidance would be helpful.",missing_item
+CONV-04706,I need some help. There are changes in my profile that I didn't make. I haven't changed anything on my account.,account_security
+CONV-00363,"Hi, How do I change the address attached to my order? I placed the order earlier today. Thanks.",address_change
+CONV-00967,I’m checking on ORD-100150. Could you tell me its current status? Please let me know.,order_status
+CONV-04485,My account suddenly won't let me log in. Thank you.,account_access
+CONV-04734,Could you help me? I’m checking on ORD-100225. Could you tell me its current status? I noticed this while reviewing my recent activity. I’d like to resolve this today.,order_status
+CONV-02044,Please advise: Could you help me end my recurring plan? I noticed this while reviewing my recent activity. Thanks.,subscription_cancel
+CONV-02595,I’m contacting support because Can you see what stage ORD-100172 is at right now? I haven't changed anything on my account. Can you check?,order_status
+CONV-01342,Quick question: Please stop ORD-101932 before it is dispatched. I’m trying to sort this out before the end of the day. Thanks.,order_cancellation
+CONV-00451,"Please advise: I received the package, but one of the products is absent. I noticed this while reviewing my recent activity. Any guidance would be helpful.",missing_item
+CONV-02457,Just checking — Why does the payment fail whenever I try to complete the order? I placed the order earlier today. I’d like to resolve this today.,payment_failure
+CONV-01688,"Hi, Could you explain the return process for this purchase? I’m trying to sort this out before the end of the day. Any guidance would be helpful.",return_request
+CONV-00332,Quick question: The promised delivery window is over for ORD-100414. I’m trying to sort this out before the end of the day. Any guidance would be helpful.,delivery_delay
+CONV-01379,Could you help me? Could you explain the available options for this product? I placed the order earlier today. Any guidance would be helpful.,product_information
+CONV-04433,"Hi, Where should I enter my promo code? I noticed this while reviewing my recent activity. Thanks.",promo_code
+CONV-02419,Just checking — Can you help me cancel my recent order? I noticed this while reviewing my recent activity. I'd appreciate your help.,order_cancellation
+CONV-00919,"Hi, Where should I enter my promo code? I’m trying to sort this out before the end of the day. Any guidance would be helpful.",promo_code
+CONV-02346,I need some help. Why does the payment fail whenever I try to complete the order? I haven't changed anything on my account. Can you check?,payment_failure
+CONV-02364,I wanted to check whether I need to redirect this package to another address. This is my first time dealing with this issue.,address_change
+CONV-00593,I was sent the wrong model. I haven't changed anything on my account. Thank you.,wrong_item
+CONV-01333,"Hi, Roughly how long will delivery take? I noticed this while reviewing my recent activity. Thanks.",delivery_estimate
+CONV-01918,I wanted to check whether I need to redirect this package to another address. I haven't changed anything on my account. Can you check?,address_change
+CONV-00522,Could you help me? Please update the destination before the order ships. I’m trying to sort this out before the end of the day. I’d like to resolve this today.,address_change
+CONV-03572,Just checking — I placed ORD-100053 recently. What is happening with it? I placed the order earlier today. I'd appreciate your help.,order_status
+CONV-02880,Please advise: I entered the wrong delivery address. Can it be corrected? I noticed this while reviewing my recent activity. Any guidance would be helpful.,address_change
+CONV-04423,Just checking — It looks like I was billed twice for ORD-101581. I noticed this while reviewing my recent activity. Any guidance would be helpful.,duplicate_charge
+CONV-03539,I wanted to check whether I have a question about the charge on my recurring plan. Can you check?,subscription_billing
+CONV-02755,I’m contacting support because My multi-item order is incomplete. I haven't changed anything on my account. Can you check?,missing_item
+CONV-00251,"Hi, I need the specifications before I decide whether to buy it. I noticed this while reviewing my recent activity. Thanks.",product_information
+CONV-02154,"Hi, How do I change the address attached to my order? I noticed this while reviewing my recent activity. Any guidance would be helpful.",address_change
+CONV-01053,"Hello, I'm locked out of my account and need access. I haven't changed anything on my account. Please let me know.",account_access
+CONV-02175,"Hi, Why was my subscription charged this month? I noticed this while reviewing my recent activity. I'd appreciate your help.",subscription_billing
+CONV-02103,I wanted to check whether Please stop my recurring membership. I haven't changed anything on my account. Thank you.,subscription_cancel
+CONV-00254,I need some help. Why does the payment fail whenever I try to complete the order? Can you check?,payment_failure
+CONV-00056,I’m contacting support because Where can I request a password reset? Thank you.,password_reset
+CONV-01649,Please advise: Why are there duplicate transactions for one order? I’m trying to sort this out before the end of the day. I’d like to resolve this today.,duplicate_charge
+CONV-00196,"Hello, I'm still waiting for the money from my return. Can you check? This is my first time dealing with this issue. Can you check?",refund_status
+CONV-00416,"Hello, I don't recognize the amount billed for my membership. I haven't changed anything on my account. Can you check?",subscription_billing
+CONV-00709,"Hello, I entered the wrong delivery address. Can it be corrected? Can you check?",address_change
+CONV-03089,"Hi, Why was my subscription charged this month? I noticed this while reviewing my recent activity. I’d like to resolve this today.",subscription_billing
+CONV-00445,Please advise: Why are there duplicate transactions for one order? I noticed this while reviewing my recent activity. Thanks.,duplicate_charge
+CONV-01260,What is the estimated delivery date for my package? I haven't changed anything on my account. Can you check?,delivery_estimate
+CONV-01215,Please advise: Does this product come with the accessories shown? I noticed this while reviewing my recent activity. Any guidance would be helpful.,product_information
+CONV-03202,Please advise: Could you help me end my recurring plan? I noticed this while reviewing my recent activity. Any guidance would be helpful.,subscription_cancel
+CONV-03018,Please advise: I can't finish the purchase because the payment isn't accepted. I’m trying to sort this out before the end of the day. I'd appreciate your help.,payment_failure
+CONV-01466,"Hello, I'm still waiting for the money from my return. Can you check? Thank you.",refund_status
+CONV-00684,Just checking — Can I change the shipping address for ORD-103745? I noticed this while reviewing my recent activity. Thanks.,address_change
+CONV-00402,Just checking — Can you explain the latest recurring charge? I noticed this while reviewing my recent activity. I’d like to resolve this today.,subscription_billing
+CONV-00446,I wanted to check whether I think I was charged more than once for a single checkout. I haven't changed anything on my account. Can you check?,duplicate_charge
+CONV-01128,Quick question: I have a question about the charge on my recurring plan. I placed the order earlier today. I'd appreciate your help.,subscription_billing
+CONV-00217,Quick question: I want to track the package that was just dispatched. I noticed this while reviewing my recent activity. I'd appreciate your help.,delivery_tracking
+CONV-01068,"Hi, Where can I request a password reset? I placed the order earlier today. I'd appreciate your help.",password_reset
+CONV-03843,Just checking — I’m planning around the delivery. When is it expected? I placed the order earlier today. Any guidance would be helpful.,delivery_estimate
+CONV-03153,I need some help. Why does the payment fail whenever I try to complete the order? Thank you.,payment_failure
+CONV-02785,I need some help. Where is ORD-104945 right now? This is my first time dealing with this issue.,delivery_tracking
+CONV-01016,"Hi, Something different was packed instead of what I purchased. I noticed this while reviewing my recent activity. Thanks.",wrong_item
+CONV-01549,Please advise: When should ORD-100695 arrive? I’m trying to sort this out before the end of the day. I’d like to resolve this today.,delivery_estimate
+CONV-01561,I’m contacting support because Why was my subscription charged this month? This is my first time dealing with this issue. Please let me know.,subscription_billing
+CONV-04314,Just checking — The login page won't let me access my account. I placed the order earlier today. I'd appreciate your help.,account_access
+CONV-04502,I’m contacting support because I see two charges for the same purchase. I haven't changed anything on my account. Thank you.,duplicate_charge
+CONV-02846,Please advise: I entered the wrong delivery address. Can it be corrected? I placed the order earlier today. Any guidance would be helpful.,address_change
+CONV-02827,I need some help. Has the refund for ORD-101100 been issued yet?,refund_status
+CONV-04607,Could you explain the available options for this product? This is my first time dealing with this issue. Can you check?,product_information
+CONV-00104,I need some help. The discount isn't being applied even though I entered the code. I haven't changed anything on my account. Can you check?,promo_code
+CONV-00552,Quick question: The delivered item doesn't match my order. I noticed this while reviewing my recent activity. Thanks.,wrong_item
+CONV-02521,I need some help. The item I received isn't the one I ordered. Can you check?,wrong_item
+CONV-00072,"Hello, Would you mind checking the latest status of ORD-100084? Can you check?",order_status
+CONV-01921,"Hi, When should the refund appear in my account? I placed the order earlier today. Any guidance would be helpful.",refund_status
+CONV-01861,Quick question: Please stop ORD-101992 before it is dispatched. I’m trying to sort this out before the end of the day. Any guidance would be helpful.,order_cancellation
+CONV-00219,"Hello, Could you help me end my recurring plan?",subscription_cancel
+CONV-03788,"Hi, Why was my subscription charged this month? I’m trying to sort this out before the end of the day. I'd appreciate your help.",subscription_billing
+CONV-00044,Could you help me? I’m checking on ORD-100065. Could you tell me its current status? I placed the order earlier today. I’d like to resolve this today.,order_status
+CONV-04882,The same purchase appears twice on my card statement. I haven't changed anything on my account. Can you check?,duplicate_charge
+CONV-01000,Could you help me? I no longer want this order. Is cancellation still possible? I’m trying to sort this out before the end of the day. I’d like to resolve this today.,order_cancellation
+CONV-01664,I’m contacting support because I'd like to withdraw this purchase if it hasn't shipped. This is my first time dealing with this issue. Can you check?,order_cancellation
+CONV-02844,"Hi, Checkout keeps rejecting my payment. I noticed this while reviewing my recent activity. Thanks.",payment_failure
+CONV-01783,I need some help. Can you explain the latest recurring charge? Thank you.,subscription_billing
+CONV-01763,"Hello, I received a security alert for an unfamiliar sign-in. I haven't changed anything on my account.",account_security
+CONV-03667,"Hello, I can't finish the purchase because the payment isn't accepted. This is my first time dealing with this issue. Thank you.",payment_failure
+CONV-02638,Just checking — The item I received isn't the one I ordered. I noticed this while reviewing my recent activity. Any guidance would be helpful.,wrong_item
+CONV-02183,Could you help me? Could you tell me the current status of my refund? I noticed this while reviewing my recent activity. Any guidance would be helpful.,refund_status
+CONV-04281,Could you help me? I was sent the wrong model. I noticed this while reviewing my recent activity. I'd appreciate your help.,wrong_item
+CONV-04548,Please advise: The product has a crack that wasn't shown in the listing. I noticed this while reviewing my recent activity. Thanks.,damaged_item
+CONV-03375,"Hi, Could you explain the return process for this purchase? I’m trying to sort this out before the end of the day. I'd appreciate your help.",return_request
+CONV-03764,"Hi, Can you see what stage ORD-100107 is at right now? I placed the order earlier today. Any guidance would be helpful.",order_status
+CONV-01571,What is the estimated delivery date for my package? Thank you.,delivery_estimate
+CONV-01017,Please advise: Would you mind checking the latest status of ORD-100099? I noticed this while reviewing my recent activity. Any guidance would be helpful.,order_status
+CONV-00513,Quick question: Please stop ORD-101972 before it is dispatched. I placed the order earlier today. Thanks.,order_cancellation
+CONV-01163,I’m contacting support because I'd like to withdraw this purchase if it hasn't shipped. This is my first time dealing with this issue.,order_cancellation
+CONV-00087,"Hello, What steps do I need to follow to return this product? I haven't changed anything on my account. Thank you.",return_request
+CONV-01737,Please advise: I received a security alert for an unfamiliar sign-in. I placed the order earlier today. Any guidance would be helpful.,account_security
+CONV-02820,Just checking — Where is ORD-104790 right now? I noticed this while reviewing my recent activity. I'd appreciate your help.,delivery_tracking
+CONV-02876,"Hi, I'd like to withdraw this purchase if it hasn't shipped. I placed the order earlier today. I’d like to resolve this today.",order_cancellation
+CONV-04165,Please advise: I can't finish the purchase because the payment isn't accepted. I placed the order earlier today. Thanks.,payment_failure
+CONV-00244,Please advise: I don't recognize the amount billed for my membership. I’m trying to sort this out before the end of the day. I'd appreciate your help.,subscription_billing
+CONV-00401,I’m contacting support because When should the refund appear in my account? I haven't changed anything on my account. Please let me know.,refund_status
+CONV-00670,"I expected this shipment already, but it hasn't turned up.",delivery_delay
+CONV-00027,I need some help. Can you explain the latest recurring charge? This is my first time dealing with this issue. Thank you.,subscription_billing
+CONV-02742,"Hello, I'm locked out of my account and need access. This is my first time dealing with this issue. Can you check?",account_access
+CONV-00834,Quick question: I want to track the package that was just dispatched. I noticed this while reviewing my recent activity. I’d like to resolve this today.,delivery_tracking
+CONV-03540,I’m contacting support because My multi-item order is incomplete. I haven't changed anything on my account. Can you check?,missing_item
+CONV-03394,I need some help. Has the refund for ORD-101030 been issued yet? This is my first time dealing with this issue. Thank you.,refund_status
+CONV-04304,Please advise: What steps do I need to follow to return this product? I noticed this while reviewing my recent activity. I'd appreciate your help.,return_request
+CONV-04751,I’m contacting support because How can I prevent the plan from renewing? Please let me know.,subscription_cancel
+CONV-03003,Please advise: Does this product come with the accessories shown? I placed the order earlier today. I'd appreciate your help.,product_information
+CONV-04430,I wanted to check whether I keep getting rejected when I try to sign in. Thank you.,account_access
+CONV-01536,I need some help. The item I received isn't the one I ordered. This is my first time dealing with this issue. Please let me know.,wrong_item
+CONV-04286,"Hi, When should the refund appear in my account? I noticed this while reviewing my recent activity. I'd appreciate your help.",refund_status
+CONV-01131,"Hi, I can't sign in to my account. I’m trying to sort this out before the end of the day. Any guidance would be helpful.",account_access
+CONV-03149,I need some help. There are changes in my profile that I didn't make. This is my first time dealing with this issue. Can you check?,account_security
