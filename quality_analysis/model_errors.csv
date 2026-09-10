@@ -1,0 +1,4 @@
+conversation_id,customer_message,intent,predicted_intent
+CONV-01647,"My delivery arrived, but the item inside is damaged. I haven't changed anything on my account. Thank you.",missing_item,damaged_item
+CONV-01485,"I wanted to check whether The item was returned, but I haven't received the refund. Thank you.",return_request,refund_status
+CONV-03815,"Hello, I can't finish the purchase because the payment isn't accepted. I haven't changed anything on my account.",duplicate_charge,payment_failure
