@@ -32,6 +32,7 @@ This project implements a **production-grade data annotation and quality assuran
 | 🛡️ **Compliance Audit** | Automated PII detection (emails, phone numbers, card numbers, URLs) |
 | 🤖 **ML Pipeline** | TF-IDF + Logistic Regression with stratified train/validation/test splits |
 | 📈 **Model Evaluation** | Accuracy, precision, recall, F1-score & confusion matrix evaluation |
+| 🔄 **Continuous Improvement** | Error analysis driving iterative annotation guideline updates |
 
 ---
 
@@ -90,15 +91,18 @@ Conversational-AI-Data-Annotation-QA-Pipeline/
 │   └── intent_taxonomy.csv             #   → 20 intents with definitions & criteria
 │
 ├── 📁 annotation_guidelines/           # Annotator reference material
-│   └── annotation_guidelines.pdf       #   → Rules, examples & edge-case guidance
+│   ├── annotation_guidelines.pdf       #   → Rules, examples & edge-case guidance
+│   └── guideline_updates.md            #   → Iterative updates post error analysis
 │
 ├── 📁 annotated_data/                  # Multi-annotator labeled dataset
 │   └── labeled_conversations.csv       #   → 3 annotator labels + adjudicated intent
 │
-├── 📁 quality_analysis/                # Annotation quality metrics
+├── 📁 quality_analysis/                # Annotation quality & error metrics
 │   ├── annotation_accuracy.py          #   → Per-annotator accuracy vs. adjudicated label
 │   ├── agreement_metrics.py            #   → Pairwise Cohen's Kappa scores
-│   └── confusion_matrix.py             #   → Visual confusion matrix plot
+│   ├── confusion_matrix.py             #   → Visual confusion matrix plot
+│   ├── error_analysis.py               #   → Analysis of model misclassifications
+│   └── model_errors.csv                #   → Output log of detailed model errors
 │
 ├── 📁 compliance_audit/                # Data compliance & PII checks
 │   ├── compliance_check.py             #   → Automated 8-point compliance audit
@@ -244,6 +248,25 @@ python model/validation.py
 ```
 > ✅ Evaluates the trained model on the validation set — reports overall accuracy and a detailed per-intent classification report (precision, recall, F1-score).
 
+### Stage 8 — Model Testing & Evaluation
+
+```bash
+python model/testing.py
+python model_evaluation/accuracy.py
+python model_evaluation/precision.py
+python model_evaluation/recall.py
+python model_evaluation/f1_score.py
+python model_evaluation/confusion_matrix.py
+```
+> 🎯 Runs the final test on the held-out test split, calculating discrete metrics (accuracy, precision, recall, F1) and generating `model_evaluation/model_confusion_matrix.png`.
+
+### Stage 9 — Error Analysis
+
+```bash
+python quality_analysis/error_analysis.py
+```
+> 🔍 Analyzes model misclassifications on the test set, outputting `quality_analysis/model_errors.csv`. Findings from this analysis drive iterative updates in `annotation_guidelines/guideline_updates.md`.
+
 ---
 
 ## 🧠 Model Details
@@ -268,6 +291,7 @@ python model/validation.py
 | **Cohen's Kappa** | Pairwise inter-annotator agreement (chance-corrected) |
 | **Annotation Accuracy** | Each annotator's agreement with the adjudicated ground truth |
 | **Confusion Matrix** | Visual map of annotation disagreements by intent |
+| **Error Analysis** | Deep-dive into model misclassifications to refine guidelines |
 
 ### Compliance Audit (8-Point Check)
 
